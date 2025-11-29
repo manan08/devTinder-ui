@@ -4,7 +4,7 @@ const NavBar = () => {
     return (
         <div className="navbar bg-base-300 shadow-sm">
             <div className="flex-1">
-                <Link className="btn btn-ghost text-xl" to='/login'>daisyUI</Link>
+                <Link className="btn btn-ghost text-xl" to='/login'>DevTinder</Link>
             </div>
             <div className="flex gap-2">
                 <div className="dropdown dropdown-end mx-5">

@@ -13,9 +13,10 @@ const Login = () => {
                 { emailId: email, password },
                 { withCredentials: true }
             );
-            console.log(response);
+
             setEmail('');
             setPassword('');
+
         } catch (error) {
             console.log('Error in Login!', error);
         }
